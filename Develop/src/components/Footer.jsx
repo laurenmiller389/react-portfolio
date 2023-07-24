@@ -19,12 +19,12 @@ const Footer = () => {
             </span>{' '}
             
           </h4>
-          <ul className="mt-3 text-lg font-medium text-white-900 dark:text-gray-900 sm:mt-0">
-          <li>
+          <ul className="mt-3 list-unstyled list-inline text-lg font-weight-bold text-white-900">
+          <li className="list-inline-item">
             <a
               href="https://github.com/laurenmiller389/"
               target="_blank"
-              className="mr-4 hover:underline md:mr-6 "
+              className="text-decoration-none mr-4"
             >
               Github
             </a>
@@ -32,7 +32,7 @@ const Footer = () => {
           <li>
             <a
               href="https://www.linkedin.com/in/lauren-miller-6b435a1b9/"
-              className="mr-4 hover:underline md:mr-6 "
+              className="text-decoration-none mr-4"
             >
               LinkedIn
             </a>
