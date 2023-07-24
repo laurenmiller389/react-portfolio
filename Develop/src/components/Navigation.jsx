@@ -1,6 +1,8 @@
-//this is my nav file
+
+
 function NavTabs({ currentPage, handlePageChange }) {
     return (
+        <navbar id="navbar">
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
@@ -44,6 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      </navbar>
     );
   }
   
