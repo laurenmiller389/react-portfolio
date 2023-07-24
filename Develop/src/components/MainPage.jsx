@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import Navigation from './pages/Navigation';
-import Resume from './pages/Resume';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import Navigation from './Navigation';
+import Resume from './Resume';
+import About from './About';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 export default function MainPage() {
   const [currentPage, setCurrentPage] = useState('About');
