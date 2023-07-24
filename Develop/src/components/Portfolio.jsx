@@ -4,6 +4,7 @@ function ProjectComponent({title, link, image}) {
         <div>
             <h2>{title}</h2>
             <img src={image}></img>
+            <a href={link}></a>
         </div>
     );
 }
@@ -11,20 +12,30 @@ function ProjectComponent({title, link, image}) {
 export default function Portfolio() {
     const projects = [
         {
-            title: "Random",
-            link: "random link",
-            image: "image src"
+            title: "The Breakroom",
+            image: "./theBreakroom.png",
+            link: "https://sefenydiaz.github.io/test-arcade/index.html"
         },
         {
-            title: "Random",
-            link: "random link",
-            image: "image src"
+            title: "Movie Mentor",
+            image: "./movieMenor",
+            link: "https://github.com/tegaomare/moviementor"
+        },
+        {
+            title: "Work Day Scheduler",
+            image: "./workDayScheduler",
+            link: "https://github.com/laurenmiller389/hw5-workday"
         },
     ];
 
     return (
-        projects.map((project,index) => (
-            <ProjectComponent key={index} title={project.title} link={project.link}/>
-    ))
+        {projects.map((project,index) => (
+            <ProjectComponent 
+            key={index} 
+            title={project.title} 
+            link={project.link}
+            image={project.image}
+            />
+    ))}
     )
 }
