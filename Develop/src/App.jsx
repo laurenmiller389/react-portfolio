@@ -1,12 +1,18 @@
 import './App.css';
-import BucketList from './components/BucketList';
+import MainPage from './components/MainPage';
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
   return (
-    <div className="bucket-app">
-      <BucketList />
+    <div className="react-portfolio">
+      <Header />
+      <MainPage />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+
