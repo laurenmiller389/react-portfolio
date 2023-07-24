@@ -1,9 +1,14 @@
 import { useState } from 'react';
-import Navigation from './Navigation';
+import Navigation from './pages/Navigation';
 import Resume from './pages/Resume';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+
+export default function MainPage() {
+  const [currentPage, setCurrentPage] = useState('About');
+
+};
 
 function Bucket(props) {
   const [edit, setEdit] = useState({
