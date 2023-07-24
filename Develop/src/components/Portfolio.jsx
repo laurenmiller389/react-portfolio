@@ -6,7 +6,7 @@ function ProjectComponent({title, link, image}) {
             <img src={image}></img>
         </div>
     );
-};
+}
 
 export default function Portfolio() {
     const projects = [
@@ -23,8 +23,8 @@ export default function Portfolio() {
     ];
 
     return (
-        {projects.map((project,idx) => {
-            <ProjectComponent key={idx} title={project.title} link={project.link}/>
-        })}
+        projects.map((project,index) => (
+            <ProjectComponent key={index} title={project.title} link={project.link}/>
+    ))
     )
 }
