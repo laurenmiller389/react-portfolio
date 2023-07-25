@@ -1,12 +1,12 @@
 import './App.css';
 import MainPage from './components/MainPage';
 import Footer from './components/Footer'
-import Header from './components/Header'
+import Navigation from './components/Navigation'
 
 function App() {
   return (
     <div className="react-portfolio">
-      <Header />
+      <Navigation />
       <MainPage />
       <Footer />
     </div>
