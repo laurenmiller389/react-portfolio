@@ -23,7 +23,7 @@ const Contact = () => {
             <svg className="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
             <div>
               <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Address</h3>
-              <p>I ain't giving that to you !!!!</p>
+              <p>I aint giving that to you !!!!</p>
             </div>
           </div>
           
