@@ -23,7 +23,6 @@ const Footer = () => {
           <li className="list-inline-item">
             <a
               href="https://github.com/laurenmiller389/"
-              target="_blank"
               className="text-decoration-none mr-4"
             >
               Github
