@@ -18,17 +18,18 @@ export default function Portfolio() {
         },
         {
             title: "Movie Mentor",
-            image: "./movieMenor",
+            image: "./movieMentor.png",
             link: "https://github.com/tegaomare/moviementor"
         },
         {
             title: "Work Day Scheduler",
-            image: "./workDayScheduler",
+            image: "./workDayScheduler.png",
             link: "https://github.com/laurenmiller389/hw5-workday"
         },
     ];
 
     return (
+    <div>
         {projects.map((project,index) => (
             <ProjectComponent 
             key={index} 
@@ -37,5 +38,6 @@ export default function Portfolio() {
             image={project.image}
             />
     ))}
+    </div>
     )
 }

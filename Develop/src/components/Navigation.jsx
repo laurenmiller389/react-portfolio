@@ -1,5 +1,3 @@
-
-
 function NavTabs({ currentPage, handlePageChange }) {
     return (
         
@@ -7,12 +5,12 @@ function NavTabs({ currentPage, handlePageChange }) {
   <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
     <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
       <svg className="bi me-2" width="40" height="32"><use xlinkHref="#bootstrap"/></svg>
-      <span className="fs-4">Lauren Miller</span>
+     <span className="fs-4">Lauren Miller</span>
     </a>
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
-            href="#about"
+            //href="#about"
             onClick={() => handlePageChange('About')}
             // This is a conditional (ternary) operator that checks to see if the current page is "Home"
             // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
